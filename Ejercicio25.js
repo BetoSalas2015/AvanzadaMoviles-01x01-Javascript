@@ -1,7 +1,7 @@
 function mapForEach( arr, fn) {
     var arr2 = [];
     for(var i = 0; i < arr.length; ++i) {
-        arr2.push( fn(arr[i]) );
+        arr2.push( fn( arr[i] ) );
     }
     return arr2;
 }
